@@ -14,10 +14,5 @@ public class Main {
         camion.totalAbastecer(100);
         camion.viajar(12);
 
-
-
-        Camion camion1 = new Camion(120,18, 2);
-        System.out.println(camion1.totalAbastecer(48));
-
     }
 }

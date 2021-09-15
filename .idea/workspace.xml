@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccafda2c-1034-4deb-a808-64e06d476028" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Automovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/ing/software/lab1/Automovil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Camion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/ing/software/lab1/Camion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/ing/software/lab1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/ing/software/lab1/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cs/ing/software/lab1/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Automovil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Camion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Vehiculo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab01-recordando-poo-Yes197-1.0-LAB01.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab01-recordando-poo-Yes197-1.0-LAB01.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/report-task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/report-task.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/all.typedefs" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/all.typedefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_0.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_0.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_1.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_1.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_2.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_2.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_3.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_3.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_4.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_4.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_5.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_5.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_6.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_6.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_7.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_7.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs/ing/software/lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/ing/software/lab1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +89,7 @@
       <workItem from="1631406600544" duration="3536000" />
       <workItem from="1631675142705" duration="3239000" />
       <workItem from="1631682411177" duration="14843000" />
+      <workItem from="1631697638896" duration="377000" />
     </task>
     <servers />
   </component>
