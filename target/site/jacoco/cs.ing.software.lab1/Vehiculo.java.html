@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Vehiculo.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">lab01-recordando-poo-Yes197</a> &gt; <a href="index.source.html" class="el_package">cs.ing.software.lab1</a> &gt; <span class="el_source">Vehiculo.java</span></div><h1>Vehiculo.java</h1><pre class="source lang-java linenums">package cs.ing.software.lab1;
+
+
+public class Vehiculo {
+    protected double capacidadCombustible;
+    protected double cantidadCombustible;
+    protected double consumoPorKilometro;
+
+<span class="fc" id="L9">    public Vehiculo(double capacidadCombustible, double cantidadCombustible, double consumoPorKilometro) {</span>
+<span class="fc" id="L10">        this.capacidadCombustible = capacidadCombustible;</span>
+<span class="fc" id="L11">        this.cantidadCombustible = cantidadCombustible;</span>
+<span class="fc" id="L12">        this.consumoPorKilometro = consumoPorKilometro;</span>
+<span class="fc" id="L13">    }</span>
+
+
+    public String abastecer(double combustible, double porcentajeCapacidad) {
+<span class="nc" id="L17">        String nomClase = this.getClass().getSimpleName();</span>
+<span class="nc bnc" id="L18" title="All 2 branches missed.">        if (combustible + this.cantidadCombustible &lt;= this.capacidadCombustible) {</span>
+<span class="nc" id="L19">            this.cantidadCombustible += (combustible * porcentajeCapacidad);</span>
+<span class="nc" id="L20">            return &quot;La cantidad de combustible del &quot; + nomClase + &quot; es: &quot; + String.format(&quot;%.2f&quot;, this.cantidadCombustible);</span>
+        } else {
+<span class="nc" id="L22">            return nomClase + &quot; no se puede reabastecer el tanque, está lleno&quot;;</span>
+        }
+    }
+
+
+    public String viajar(int distancia) {
+<span class="fc" id="L28">        double combustibleRequerido = this.consumoPorKilometro * distancia;</span>
+<span class="fc" id="L29">        String nomClase = this.getClass().getSimpleName();</span>
+<span class="pc bpc" id="L30" title="1 of 2 branches missed.">        if (combustibleRequerido &gt; this.cantidadCombustible) {</span>
+<span class="fc" id="L31">            return nomClase + &quot; necesita reabastecimiento de combustible&quot;;</span>
+<span class="nc bnc" id="L32" title="All 2 branches missed.">        } else if (combustibleRequerido == this.cantidadCombustible) {</span>
+<span class="nc" id="L33">            this.cantidadCombustible -= combustibleRequerido;</span>
+<span class="nc" id="L34">            return nomClase + &quot; viajó &quot; + String.format(&quot; %.1f&quot;, (double)distancia) + &quot; km y ya no tiene combustible&quot;;</span>
+        } else {
+<span class="nc" id="L36">            this.cantidadCombustible -= combustibleRequerido;</span>
+<span class="nc" id="L37">            return nomClase + &quot; viajó &quot; + String.format(&quot; %.1f&quot;, (double)distancia) + &quot; km y aún tiene &quot; + String.format(&quot;%.2f&quot;,</span>
+<span class="nc" id="L38">                    this.cantidadCombustible) + &quot; de combustible&quot;;</span>
+        }
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

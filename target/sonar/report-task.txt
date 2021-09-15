@@ -1,7 +1,7 @@
 organization=pg-software-engineering-i-2021-2
 projectKey=lab1.software:lab01-recordando-poo-Yes197
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.23159
+serverVersion=8.0.0.23273
 dashboardUrl=https://sonarcloud.io/dashboard?id=lab1.software%3Alab01-recordando-poo-Yes197
-ceTaskId=AXvXVDxcaJreQlDDt6IZ
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXvXVDxcaJreQlDDt6IZ
+ceTaskId=AXvoxBXFhhOOaUVpEIuh
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXvoxBXFhhOOaUVpEIuh
