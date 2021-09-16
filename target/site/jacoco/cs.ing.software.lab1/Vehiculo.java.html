@@ -14,12 +14,12 @@ public class Vehiculo {
 
 
     public String abastecer(double combustible, double porcentajeCapacidad) {
-<span class="nc" id="L17">        String nomClase = this.getClass().getSimpleName();</span>
-<span class="nc bnc" id="L18" title="All 2 branches missed.">        if (combustible + this.cantidadCombustible &lt;= this.capacidadCombustible) {</span>
-<span class="nc" id="L19">            this.cantidadCombustible += (combustible * porcentajeCapacidad);</span>
-<span class="nc" id="L20">            return &quot;La cantidad de combustible del &quot; + nomClase + &quot; es: &quot; + String.format(&quot;%.2f&quot;, this.cantidadCombustible);</span>
+<span class="fc" id="L17">        String nomClase = this.getClass().getSimpleName();</span>
+<span class="fc bfc" id="L18" title="All 2 branches covered.">        if (combustible + this.cantidadCombustible &lt;= this.capacidadCombustible) {</span>
+<span class="fc" id="L19">            this.cantidadCombustible += (combustible * porcentajeCapacidad);</span>
+<span class="fc" id="L20">            return &quot;La cantidad de combustible del &quot; + nomClase + &quot; es: &quot; + String.format(&quot;%.2f&quot;, this.cantidadCombustible);</span>
         } else {
-<span class="nc" id="L22">            return nomClase + &quot; no se puede reabastecer el tanque, está lleno&quot;;</span>
+<span class="fc" id="L22">            return nomClase + &quot; no se puede reabastecer el tanque, esta lleno&quot;;</span>
         }
     }
 
@@ -27,15 +27,15 @@ public class Vehiculo {
     public String viajar(int distancia) {
 <span class="fc" id="L28">        double combustibleRequerido = this.consumoPorKilometro * distancia;</span>
 <span class="fc" id="L29">        String nomClase = this.getClass().getSimpleName();</span>
-<span class="pc bpc" id="L30" title="1 of 2 branches missed.">        if (combustibleRequerido &gt; this.cantidadCombustible) {</span>
+<span class="fc bfc" id="L30" title="All 2 branches covered.">        if (combustibleRequerido &gt; this.cantidadCombustible) {</span>
 <span class="fc" id="L31">            return nomClase + &quot; necesita reabastecimiento de combustible&quot;;</span>
-<span class="nc bnc" id="L32" title="All 2 branches missed.">        } else if (combustibleRequerido == this.cantidadCombustible) {</span>
-<span class="nc" id="L33">            this.cantidadCombustible -= combustibleRequerido;</span>
-<span class="nc" id="L34">            return nomClase + &quot; viajó &quot; + String.format(&quot; %.1f&quot;, (double)distancia) + &quot; km y ya no tiene combustible&quot;;</span>
+<span class="fc bfc" id="L32" title="All 2 branches covered.">        } else if (combustibleRequerido == this.cantidadCombustible) {</span>
+<span class="fc" id="L33">            this.cantidadCombustible -= combustibleRequerido;</span>
+<span class="fc" id="L34">            return nomClase + &quot; viajo &quot; + String.format(&quot; %.1f&quot;, (double)distancia) + &quot; km y ya no tiene combustible&quot;;</span>
         } else {
-<span class="nc" id="L36">            this.cantidadCombustible -= combustibleRequerido;</span>
-<span class="nc" id="L37">            return nomClase + &quot; viajó &quot; + String.format(&quot; %.1f&quot;, (double)distancia) + &quot; km y aún tiene &quot; + String.format(&quot;%.2f&quot;,</span>
-<span class="nc" id="L38">                    this.cantidadCombustible) + &quot; de combustible&quot;;</span>
+<span class="fc" id="L36">            this.cantidadCombustible -= combustibleRequerido;</span>
+<span class="fc" id="L37">            return nomClase + &quot; viajo &quot; + String.format(&quot; %.1f&quot;, (double)distancia) + &quot; km y aun tiene &quot; + String.format(&quot;%.2f&quot;,</span>
+<span class="fc" id="L38">                    this.cantidadCombustible) + &quot; de combustible&quot;;</span>
         }
     }
 }

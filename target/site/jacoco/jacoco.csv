@@ -1,5 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-lab01-recordando-poo-Yes197,cs.ing.software.lab1,Main,42,0,0,0,10,0,2,0,2,0
-lab01-recordando-poo-Yes197,cs.ing.software.lab1,Camion,11,0,0,0,3,0,2,0,2,0
-lab01-recordando-poo-Yes197,cs.ing.software.lab1,Vehiculo,125,36,5,1,11,9,4,2,1,2
-lab01-recordando-poo-Yes197,cs.ing.software.lab1,Automovil,11,0,0,0,3,0,2,0,2,0
+lab01-recordando-poo-Yes197,cs.ing.software.lab1,Main,8,38,0,0,4,8,2,2,2,2
+lab01-recordando-poo-Yes197,cs.ing.software.lab1,Camion,0,11,0,0,0,3,0,2,0,2
+lab01-recordando-poo-Yes197,cs.ing.software.lab1,Vehiculo,0,161,0,6,0,20,0,6,0,3
+lab01-recordando-poo-Yes197,cs.ing.software.lab1,Automovil,0,11,0,0,0,3,0,2,0,2

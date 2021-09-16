@@ -1,74 +1,20 @@
 
-=cs.ing.software.lab1.Vehiculo#abastecer(DD)Ljava/lang/String;s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java ("3*å	
-2s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java (ﬂ
-‹
-s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java (?
-%2java.lang.String"__concat*#!
-La cantidad de combustible del *
-
-nomClasejava.lang.Stringø
-º
-s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java (I
-%3java.lang.String"__concat*
+?cs.ing.software.lab1.Camion#totalAbastecer(D)Ljava/lang/String;q
+gD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Camion.java
+ 
+( "1*Ó
+1q
+gD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Camion.java (Â
+‚
+q
+gD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Camion.java (1
+%0java.lang.String"=cs.ing.software.lab1.Vehiculo#abastecer(DD)Ljava/lang/String;*
+""*
+""*
+"""ç
+q
+gD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Camion.java (2
 
-%2java.lang.String*	
- es: ä
-á
-s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.javaL ({
-%4java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*
-%.2f*
-""Œ
-À
-s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java ({
-%5java.lang.String"__concat*
-
-%3java.lang.String*
-
-%4java.lang.String"è
-s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java (|
-
-%5java.lang.String*ò
-3s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java (ÏÈ
-s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java ()
-%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*!
-cs.ing.software.lab1.Vehiculo2
-getClass()ÌÍ
-s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java (9
-%1java.lang.String"1java.lang.Class#getSimpleName()Ljava/lang/String;*
-
-%0java.lang.Class2getSimpleName()∂
-≥
-s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java (:
-nomClasejava.lang.String"__id*
-
-%1java.lang.String*
-2
-1*¸
-1s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java (Ô
-Ï
-s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java (N
-%6java.lang.String"__concat*
-
-nomClasejava.lang.String*31
-/ no se puede reabastecer el tanque, est√° lleno"è
-s
-iD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Vehiculo.java (O
-
-%6java.lang.String:
-"":
-""B!
-cs.ing.software.lab1.Vehiculo
+%0java.lang.String:
+""B
+cs.ing.software.lab1.Camion

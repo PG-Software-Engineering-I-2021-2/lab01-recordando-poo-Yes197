@@ -19,7 +19,7 @@ public class Vehiculo {
             this.cantidadCombustible += (combustible * porcentajeCapacidad);
             return "La cantidad de combustible del " + nomClase + " es: " + String.format("%.2f", this.cantidadCombustible);
         } else {
-            return nomClase + " no se puede reabastecer el tanque, está lleno";
+            return nomClase + " no se puede reabastecer el tanque, esta lleno";
         }
     }
 
@@ -31,10 +31,10 @@ public class Vehiculo {
             return nomClase + " necesita reabastecimiento de combustible";
         } else if (combustibleRequerido == this.cantidadCombustible) {
             this.cantidadCombustible -= combustibleRequerido;
-            return nomClase + " viajó " + String.format(" %.1f", (double)distancia) + " km y ya no tiene combustible";
+            return nomClase + " viajo " + String.format(" %.1f", (double)distancia) + " km y ya no tiene combustible";
         } else {
             this.cantidadCombustible -= combustibleRequerido;
-            return nomClase + " viajó " + String.format(" %.1f", (double)distancia) + " km y aún tiene " + String.format("%.2f",
+            return nomClase + " viajo " + String.format(" %.1f", (double)distancia) + " km y aun tiene " + String.format("%.2f",
                     this.cantidadCombustible) + " de combustible";
         }
     }

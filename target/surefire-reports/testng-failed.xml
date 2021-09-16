@@ -5,7 +5,7 @@
     <classes>
       <class name="cs.ing.software.lab1.MainTest">
         <methods>
-          <include name="Test01"/>
+          <include name="Test11"/>
         </methods>
       </class> <!-- cs.ing.software.lab1.MainTest -->
     </classes>

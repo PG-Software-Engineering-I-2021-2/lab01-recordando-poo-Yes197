@@ -1,20 +1,23 @@
 
-?cs.ing.software.lab1.Camion#totalAbastecer(D)Ljava/lang/String;q
-gD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Camion.java
- 
-( "1*Ó
-1q
-gD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Camion.java (Â
-‚
-q
-gD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Camion.java (1
+Bcs.ing.software.lab1.Automovil#totalAbastecer(D)Ljava/lang/String;t
+jD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Automovil.java	 	( "1*ı
+1t
+jD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Automovil.java
+ 
+(Ê
+„
+t
+jD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Automovil.java
+ 
+(.
 %0java.lang.String"=cs.ing.software.lab1.Vehiculo#abastecer(DD)Ljava/lang/String;*
 ""*
-""*
-"""ç
-q
-gD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Camion.java (2
+""*2"ê
+t
+jD:/Computer Science/Software/lab01-recordando-poo-Yes197/src/main/java/cs/ing/software/lab1/Automovil.java
+ 
+(/
 
 %0java.lang.String:
-""B
-cs.ing.software.lab1.Camion
+""B" 
+cs.ing.software.lab1.Automovil
